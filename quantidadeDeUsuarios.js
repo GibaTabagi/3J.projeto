@@ -12,8 +12,8 @@ const infos = [
         x:nomeDasRedes,
         y:quantidadeDeUsuarios,
         type: 'bar',
-        marker 'bar' {
-            color: getCSS (--cor-primaria);
+        marker: {
+            color: getCSS (--cor-primaria)
         }
     }
 ]
