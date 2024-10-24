@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root{
-    --cor-de-fundo: #50B498;
-    --cor-primaria: #DEF9C4;
-    --cor-secundaria: #468585;
+    --cor-de-fundo: #be4aab;
+    --cor-primaria: #ffd0ed;
+    --cor-secundaria: #550051;
     --fonte: "Quantico", sans-serif;
 }
 
@@ -22,14 +22,14 @@ body{
 
 header{
     background-color: var(--cor-secundaria);
-    color: white;
+    color: rgb(243, 180, 255);
     text-align: center;
 }
 
 footer{
  text-align: center;
  background-color: var(--cor-secundaria);
- color: white;
+ color: rgb(255, 221, 250);
 }
 
 h1{
