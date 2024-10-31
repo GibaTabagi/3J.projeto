@@ -26,9 +26,16 @@ const layout = {
         x: 0,
         font: {
             color: getCSS('--cor-primaria'),
-            family: getCSS('--font'),
+            family: getCSS('--fonte'),
             size: 30
          }
+    },
+    xaxis:{
+        tickfont = tickfont,
+        title: 'Nome das redes sociais',
+        font: {
+            color: getCSS('--cor-secundaria')
+        }
     }
 }
 const grafico = document.createElement('div');
