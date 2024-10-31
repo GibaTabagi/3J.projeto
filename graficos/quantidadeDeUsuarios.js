@@ -37,7 +37,17 @@ const layout = {
             color: getCSS('--cor-secundaria')
         }
     }
+},
+yaxis:{
+    tickfont: tickfont,
+    title: {
+    text:'Milhoẽs de usuários ativos',
+    font: {
+        color: getCSS('--cor-secundaria')
+    }
+  }
 }
+
 const grafico = document.createElement('div');
 grafico.className = 'grafico'
 document.getElementById('graficos-container').appendChild(grafico)
