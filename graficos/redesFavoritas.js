@@ -12,5 +12,5 @@ async function redesFavoritas(){
             type: 'pie',
             textinfo: 'label+percent'
         }
-    ]
+    ];
 }
