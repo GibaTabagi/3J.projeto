@@ -1,1 +1,2 @@
-# 3J---2-Projeto
+# 3J-2Projeto
+Repositório para guardar os códigos do segundo projeto.

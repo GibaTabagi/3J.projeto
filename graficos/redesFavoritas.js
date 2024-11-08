@@ -1,5 +1,7 @@
+import {getCSS, tickfont} from "./comum,js"
+
 async function redesFavoritas(){
-    const url = ''
+    const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/redes-favoritas.json'
     const res = await fetch(url);
     const dados = await res.json();
     const redes = Object.keys(dados);
@@ -8,7 +10,7 @@ async function redesFavoritas(){
     const infos = [
         {
             values: valores,
-            labels: redes, 
+            labels: redes,
             type: 'pie',
             textinfo: 'label+percent'
         }
